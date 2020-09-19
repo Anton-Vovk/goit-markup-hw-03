@@ -38,6 +38,16 @@ img {
 
 /*  ============ HEADER  ============ */
 
+.container-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -45,9 +55,16 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+  margin-right: 94px;
 }
+
 .first-word-logo {
   color: var(--accent-color);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list-link {
@@ -56,6 +73,25 @@ img {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.address {
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+}
+.address-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .address-link-mail,
@@ -89,7 +125,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background: #2f303a;
+  padding-top: 200px;
+  padding-right: 300px;
+  padding-left: 300px;
+  margin-bottom: 30px;
 }
 
 .modal-btn {
@@ -103,6 +142,14 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 11px 32px;
+}
+.hero {
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*  ============ ADVANTAGE  ============ */
