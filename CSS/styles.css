@@ -309,6 +309,10 @@ img {
 
 /*  ============ PORTFOLIO  ============ */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -375,7 +379,7 @@ img {
   margin-right: 0px;
 }
 
-.project-list-item:not(:nth-last-child(-n + 3)) {
+.portfolio-item:nth-child(n + 7) {
   margin-bottom: 0px;
 }
 
@@ -386,7 +390,4 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
 /*  ============ END PORTFOLIO  ============ */
