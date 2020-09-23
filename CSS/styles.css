@@ -111,6 +111,10 @@ img {
   color: var(--accent-color);
 }
 
+.active {
+  color: var(--accent-color);
+}
+
 /*  ============ END HEADER  ============ */
 
 /*  ============ HERO  ============ */
@@ -364,6 +368,7 @@ img {
 
 .portfolio-list li {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio-item:nth-child(3n) {
@@ -371,7 +376,7 @@ img {
 }
 
 .project-list-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .potfolio-content {
@@ -381,4 +386,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
 /*  ============ END PORTFOLIO  ============ */
